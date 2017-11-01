@@ -1,0 +1,28 @@
+{
+  "name": "mongo-xls",
+  "version": "1.0.0",
+  "description": "Bot to fetch MongoDb data and convert it to excel sheet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthak3154/nodemongo-excel-bot.git"
+  },
+  "author": "Sarthak Arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthak3154/nodemongo-excel-bot/issues"
+  },
+  "homepage": "https://github.com/sarthak3154/nodemongo-excel-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "mongo-xlsx": "^1.0.12",
+    "mongoose": "^4.12.5"
+  }
+}
